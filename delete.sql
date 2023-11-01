@@ -3,6 +3,8 @@ use mukku;
 select *
 from student_List;
 
+ 
+
 
 
 set sql_safe_updates =0;
