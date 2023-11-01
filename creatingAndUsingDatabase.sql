@@ -9,4 +9,4 @@ use mussu;
 drop database mussu;
 
 -- for deleting  a table 
--- drop table tableName;
+-- drop table tableName;	
