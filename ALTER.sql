@@ -5,7 +5,7 @@ use mukku;
 select* from student_List;
 
 
--- there are 3 queries in alter command
+-- there are 5 queries in alter command
 
 
 
@@ -86,3 +86,26 @@ add column grade varchar(2);
  
  alter table student_dt
  rename to student1;
+ 
+ select * from student1;
+ 
+
+ 
+ -- 4.  rename column 
+ -- syntax
+			-- alter table tablename
+            -- change column old_column_Name new_column_name datatypes constraints;
+	
+ alter table student1
+ change column Sec section char(2) not null;
+ 
+ 
+ 
+ 
+ 
+ 
+ -- 5. modify
+ -- use for update datatypes
+ 
+ alter table student1
+ modify section varchar(10);
